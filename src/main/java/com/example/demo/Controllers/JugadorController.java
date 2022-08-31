@@ -21,7 +21,7 @@ public class JugadorController {
     @GetMapping(value = "/saludo")
     public Club  getAll(){
 
-
+        System.out.println("Se ejecuto bien la petición");
         System.out.println(jugadorRepository.findAll());
 
         return  clubRepositoty.findById(1).get();
