@@ -18,6 +18,7 @@ public class AuthController {
         System.out.println("Login");
         String query ="";
         //entityManager.createQuery(query);
+        System.out.println("saludo wee");
         return "Hello World";
 
     }
