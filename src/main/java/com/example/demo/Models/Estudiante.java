@@ -24,4 +24,7 @@ public class Estudiante {
     @Getter @Setter
     private String correo;
 
+    @Getter @Setter
+    private String contraseña;
+
 }
