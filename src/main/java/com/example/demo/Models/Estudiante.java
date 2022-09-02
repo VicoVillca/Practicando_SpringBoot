@@ -9,6 +9,7 @@ import javax.persistence.*;
 @Entity
 @Table (name = "estudiante")
 @ToString
+@NamedQuery(name = "Estudiante.findByNombre",query="select c from Estudiante c where c.nombre = ?1")
 public class Estudiante {
     @Id
     @Getter @Setter
