@@ -1,4 +1,4 @@
-package com.example.demo.Utils;
+package com.cursojava.curso.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtBuilder;
@@ -52,7 +52,7 @@ public class JWTUtil {
 
         //  set the JWT Claims
         JwtBuilder builder = Jwts.builder().setId(id).setIssuedAt(now).setSubject(subject).setIssuer(issuer)
-                .signWith(signingKey ,signatureAlgorithm);
+                .signWith(signatureAlgorithm, signingKey);
 
         if (ttlMillis >= 0) {
             long expMillis = nowMillis + ttlMillis;
