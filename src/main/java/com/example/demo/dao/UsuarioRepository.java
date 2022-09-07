@@ -1,6 +1,6 @@
-package com.cursojava.curso.dao;
+package com.example.demo.dao;
 
-import com.cursojava.curso.models.Usuario;
+import com.example.demo.models.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

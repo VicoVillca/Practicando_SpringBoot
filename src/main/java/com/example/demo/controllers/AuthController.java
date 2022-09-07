@@ -1,8 +1,8 @@
-package com.cursojava.curso.controllers;
+package com.example.demo.controllers;
 
-import com.cursojava.curso.dao.UsuarioRepository;
-import com.cursojava.curso.models.Usuario;
-import com.cursojava.curso.utils.JWTUtil;
+import com.example.demo.dao.UsuarioRepository;
+import com.example.demo.models.Usuario;
+import com.example.demo.utils.JWTUtil;
 import de.mkammerer.argon2.Argon2;
 import de.mkammerer.argon2.Argon2Factory;
 import org.springframework.beans.factory.annotation.Autowired;
