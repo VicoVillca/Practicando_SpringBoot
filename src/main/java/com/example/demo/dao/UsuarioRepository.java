@@ -19,4 +19,5 @@ public interface UsuarioRepository extends JpaRepository<Usuario,Long> {
 
     @Query("SELECT u FROM Usuario u WHERE u.nombre = :nombre and u.apellido = :apellido")
     Usuario findUserByStadodeUsuario( @Param("nombre") Integer nombre,  @Param("apellido") Integer apellido);
+    //realizamos un comentario
 }
